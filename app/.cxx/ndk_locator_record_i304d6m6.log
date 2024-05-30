@@ -1,0 +1,54 @@
+[
+  {
+    "level": "INFO",
+    "message": "android.ndkVersion from module build.gradle is 21.0.6113669"
+  },
+  {
+    "level": "INFO",
+    "message": "ndk.dir in local.properties is not set"
+  },
+  {
+    "level": "INFO",
+    "message": "ANDROID_NDK_HOME environment variable is not set"
+  },
+  {
+    "level": "INFO",
+    "message": "sdkFolder is /Users/luismartinez/Library/Android/sdk"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/luismartinez/Library/Android/sdk/ndk-bundle in SDK ndk-bundle folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/luismartinez/Library/Android/sdk/ndk/27.0.11718014 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/luismartinez/Library/Android/sdk/ndk/20.0.5594570 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/luismartinez/Library/Android/sdk/ndk/25.1.8937393 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Rejected /Users/luismartinez/Library/Android/sdk/ndk/27.0.11718014 in SDK ndk folder because that NDK had version 27.0.11718014 which didn\u0027t match the requested version 21.0.6113669"
+  },
+  {
+    "level": "INFO",
+    "message": "Rejected /Users/luismartinez/Library/Android/sdk/ndk/25.1.8937393 in SDK ndk folder because that NDK had version 25.1.8937393 which didn\u0027t match the requested version 21.0.6113669"
+  },
+  {
+    "level": "INFO",
+    "message": "Rejected /Users/luismartinez/Library/Android/sdk/ndk/20.0.5594570 in SDK ndk folder because that NDK had version 20.0.5594570 which didn\u0027t match the requested version 21.0.6113669"
+  },
+  {
+    "level": "INFO",
+    "message": "Rejected /Users/luismartinez/Library/Android/sdk/ndk-bundle in SDK ndk-bundle folder because that NDK had version 22.1.7171670 which didn\u0027t match the requested version 21.0.6113669"
+  },
+  {
+    "level": "ERROR",
+    "message": "No version of NDK matched the requested version 21.0.6113669. Versions available locally: 20.0.5594570, 22.1.7171670, 25.1.8937393, 27.0.11718014"
+  }
+]

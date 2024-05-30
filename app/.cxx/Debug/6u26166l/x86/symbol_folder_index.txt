@@ -1,0 +1,1 @@
+/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/build/intermediates/cxx/Debug/6u26166l/obj/x86

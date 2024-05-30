@@ -1,0 +1,3 @@
+/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/.cxx/Debug/6u26166l/x86/CMakeFiles/native-lib.dir
+/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/.cxx/Debug/6u26166l/x86/CMakeFiles/edit_cache.dir
+/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/.cxx/Debug/6u26166l/x86/CMakeFiles/rebuild_cache.dir
