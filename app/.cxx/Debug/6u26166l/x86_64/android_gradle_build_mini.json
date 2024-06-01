@@ -1,0 +1,49 @@
+{
+  "buildFiles": [
+    "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/luismartinez/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/.cxx/Debug/6u26166l/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/luismartinez/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/.cxx/Debug/6u26166l/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib::@6890427a1f51a3e7e1df": {
+      "artifactName": "native-lib",
+      "abi": "x86_64",
+      "output": "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/build/intermediates/cxx/Debug/6u26166l/obj/x86_64/libnative-lib.so",
+      "runtimeFiles": [
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libc++_shared.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libcharset.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libffi.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libFLAC.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libfluidsynth.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libfluidsynth-assetloader.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libgio-2.0.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libglib-2.0.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libgmodule-2.0.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libgobject-2.0.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libgthread-2.0.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libiconv.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libintl.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/liboboe.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libogg.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libsndfile.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libvorbis.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libvorbisenc.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libvorbisfile.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/libz.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86_64/preloadable_libiconv.so"
+      ]
+    }
+  }
+}

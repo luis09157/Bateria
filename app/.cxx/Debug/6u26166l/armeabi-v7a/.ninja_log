@@ -1,0 +1,3 @@
+# ninja log v5
+0	340	1717139419453285999	CMakeFiles/native-lib.dir/native-lib.cpp.o	54a087fd66484b33
+341	410	1717139419524661106	/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/build/intermediates/cxx/Debug/6u26166l/obj/armeabi-v7a/libnative-lib.so	11232588d4ee13ab

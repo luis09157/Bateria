@@ -1,0 +1,231 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/build/intermediates/cxx/RelWithDebInfo/2t356awv/obj/x86/libnative-lib.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "native_lib_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/luismartinez/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "native-lib::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libc++_shared.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libcharset.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libffi.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libFLAC.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libfluidsynth.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libfluidsynth-assetloader.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libgio-2.0.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libglib-2.0.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libgmodule-2.0.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libgobject-2.0.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libgthread-2.0.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libiconv.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libintl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/liboboe.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libogg.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libsndfile.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libvorbis.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libvorbisenc.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libvorbisfile.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/x86/preloadable_libiconv.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/Users/luismartinez/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+		}
+	},
+	"name" : "native-lib",
+	"nameOnDisk" : "libnative-lib.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "native-lib.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

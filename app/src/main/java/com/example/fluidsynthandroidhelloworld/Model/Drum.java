@@ -1,26 +1,31 @@
 package com.example.fluidsynthandroidhelloworld.Model;
 
 import android.graphics.Bitmap;
+import android.view.View;
+
+import com.example.fluidsynthandroidhelloworld.Animacion.DrumAnimator;
 
 public class Drum {
-    private String id;
+    private String name;
     private int midiResourceId;
     private Bitmap bitmap;
     private float scale;
     private float xPosition;
     private float yPosition;
+    private boolean isAnimating;
 
-    public Drum(String id, int midiResourceId, Bitmap bitmap, float scale, float xPosition, float yPosition) {
-        this.id = id;
+    public Drum(String name, int midiResourceId, Bitmap bitmap, float scale, float xPosition, float yPosition) {
+        this.name = name;
         this.midiResourceId = midiResourceId;
         this.bitmap = bitmap;
         this.scale = scale;
         this.xPosition = xPosition;
         this.yPosition = yPosition;
+        this.isAnimating = false;
     }
 
-    public String getId() {
-        return id;
+    public String getName() {
+        return name;
     }
 
     public int getMidiResourceId() {
@@ -35,6 +40,10 @@ public class Drum {
         return scale;
     }
 
+    public void setScale(float scale) {
+        this.scale = scale;
+    }
+
     public float getXPosition() {
         return xPosition;
     }
@@ -43,15 +52,15 @@ public class Drum {
         return yPosition;
     }
 
-    public boolean isTouchInside(float touchX, float touchY) {
-        float scaledWidth = bitmap.getWidth() * scale;
-        float scaledHeight = bitmap.getHeight() * scale;
+    public boolean isAnimating() {
+        return isAnimating;
+    }
 
-        float leftX = xPosition - scaledWidth / 2f;
-        float rightX = xPosition + scaledWidth / 2f;
-        float topY = yPosition - scaledHeight / 2f;
-        float bottomY = yPosition + scaledHeight / 2f;
+    public void setAnimating(boolean animating) {
+        isAnimating = animating;
+    }
 
-        return touchX >= leftX && touchX <= rightX && touchY >= topY && touchY <= bottomY;
+    public void startAnimation(View drumView) {
+        DrumAnimator.animateDrum(drumView, this);
     }
 }

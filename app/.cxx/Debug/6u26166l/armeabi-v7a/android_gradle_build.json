@@ -1,0 +1,60 @@
+{
+  "buildFiles": [
+    "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/luismartinez/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/.cxx/Debug/6u26166l/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/luismartinez/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/.cxx/Debug/6u26166l/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "native-lib",
+      "output": "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/build/intermediates/cxx/Debug/6u26166l/obj/armeabi-v7a/libnative-lib.so",
+      "runtimeFiles": [
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libc++_shared.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libcharset.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libffi.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libFLAC.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libfluidsynth.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libfluidsynth-assetloader.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libgio-2.0.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libglib-2.0.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libgmodule-2.0.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libgobject-2.0.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libgthread-2.0.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libiconv.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libintl.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/liboboe.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libogg.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libsndfile.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libvorbis.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libvorbisenc.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libvorbisfile.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/libz.so",
+        "/Users/luismartinez/Downloads/fluidsynth-android-hello-world-main/app/src/main/cpp/fluidsynth/lib/armeabi-v7a/preloadable_libiconv.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/luismartinez/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/luismartinez/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
